@@ -5,10 +5,10 @@ from functools import reduce
 Tenemos que construir una función que sume, reste, multiplique
 y divida los elementos de la matriz de manera automática
 
-dynamic_reducer([1, 2, 3], '+') # 6
-dynamic_reducer([1, 2, 3], '-') # -
-dynamic_reducer([1, 2, 3], '*') # 6
-dynamic_reducer([1, 2, 3], '/') # -
+dynamic_reducer([1, 34, 5], '+') 
+dynamic_reducer([1, 34, 5], '-')  
+dynamic_reducer([1, 34, 5], '*') 
+dynamic_reducer([1, 34, 5], '/') 
 '''
 
 def dynamic_reducer (collection, op):
